@@ -1,0 +1,17 @@
+{
+    "packageRules": [
+        {
+            "groupName": "testings",
+            "extends": [
+                "packages:jsUnitTest"
+            ],
+            "automerge": true,
+            "major": {
+                "automerge": false
+            },
+            "labels": [
+                "testing"
+            ]
+        }
+    ]
+}

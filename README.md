@@ -1,1 +1,1 @@
-# renovate-config
+# KyuzanInc `renovate-config`

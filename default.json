@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":dependencyDashboard",
+    ":prConcurrentLimit10",
+    ":separateMultipleMajorReleases",
+    ":timezone(Asia/Tokyo)",
+    "github>KyuzanInc/renovate-config:schedule",
+    "github>KyuzanInc/renovate-config:automergePin",
+    "github>KyuzanInc/renovate-config:automergeTypesMinor",
+    "github>KyuzanInc/renovate-config:groupLinters",
+    "github>KyuzanInc/renovate-config:groupTestings"
+  ],
+  "labels": [
+    "dependencies"
+  ]
+}
